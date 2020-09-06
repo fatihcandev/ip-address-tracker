@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+
+    svg {
+        margin-right: 5px;
+    }
+
+    @media ($md) {
+        height: 70vh;
+    }
+}

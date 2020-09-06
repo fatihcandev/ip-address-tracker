@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.children {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.img {
+    height: 40vh;
+
+    @media ($md) {
+        height: 30vh;
+    }
+}

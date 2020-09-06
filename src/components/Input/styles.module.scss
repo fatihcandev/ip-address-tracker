@@ -1,0 +1,65 @@
+@import "../../styles/variables";
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @media ($md) {
+        width: 75%;
+        margin: 30px auto;
+    }
+
+    @media ($lg) {
+        width: 50%;
+        margin: 30px auto;
+    }
+
+    @media ($xl) {
+        width: 40%;
+        margin: 30px auto;
+    }
+}
+
+.inputWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 1fr;
+
+    @media ($md) {
+        grid-template-columns: 85% auto;
+    }
+}
+
+.input {
+    padding: 18px;
+    color: $very-dark-gray;
+    border-radius: 15px 0 0 15px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: no-drop;
+    }
+}
+
+.inputInvalid {
+    border: 2px solid tomato;
+}
+
+.button {
+    background-color: black;
+    border-radius: 0 15px 15px 0;
+    padding: 10px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: no-drop;
+    }
+}

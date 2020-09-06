@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+html {
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+}

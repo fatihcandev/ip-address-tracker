@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.map {
+    height: 60vh;
+    z-index: 0;
+
+    @media ($md) {
+        height: 70vh;
+    }
+}

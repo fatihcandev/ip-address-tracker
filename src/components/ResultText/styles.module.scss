@@ -1,0 +1,9 @@
+.text {
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+    &:nth-child(4) {
+        margin-bottom: 0;
+    }
+}
