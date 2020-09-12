@@ -7,7 +7,7 @@ const apiKey = process.env.REACT_APP_LOCATION_API_KEY;
 const restLink = new RestLink({
   uri: `https://geo.ipify.org/api/v1?apiKey=${apiKey}&`,
   headers: {
-    mode: "cors",
+    "Access-Control-Allow-Origin": "*"
   },
 });
 
